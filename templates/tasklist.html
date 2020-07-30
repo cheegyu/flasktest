@@ -1,0 +1,17 @@
+{}
+
+<table border="1">
+  {%for item in tpl_task_list%}
+    <tr>
+     <td>{{item['id']}}</td>
+     <td>{{item['task']}}</td>
+     <td><a href="/edit/{{item['id']</td>
+     <td><a href="/del/{{item["
+    
+    </tr>
+ {%endgor%}
+</table>
+<p><a href="/add">リストの追加</a></p>
+<p><a href="/logout">ログアウト</a></p>
+
+{%endblock%}
